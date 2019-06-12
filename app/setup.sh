@@ -1,4 +1,6 @@
-﻿apiappname=OpenID-Client-$(openssl rand -hex 5)
+#!/bin/bash
+
+apiappname=OpenID-Client-$(openssl rand -hex 5)
 
 printf "Setting username and password for Git ... (1/7)\n\n"
 
